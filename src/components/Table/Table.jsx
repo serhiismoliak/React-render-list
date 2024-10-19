@@ -21,7 +21,7 @@ const Table = ({list=[]}) => {
                     item
             ));
 
-            //
+            // add one to the check becasue unactiveList include extra item we set active in setList
             if(unactiveList.length === 0 + 1) {
                 setBorderWidth('5px');
                 clearInterval(interval);
